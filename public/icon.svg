@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Fisiohelp">
+  <rect width="512" height="512" rx="112" fill="#3E7C6B"/>
+
+  <!-- contornos dos pulmoes: interior transparente, mostrando o fundo verde -->
+  <path d="M238 196 C210 176 170 182 150 214 C130 246 124 300 132 342 C138 376 160 398 190 398 C214 398 232 380 238 356 Z"
+        fill="#F6F4EF" fill-opacity="0.07" stroke="#F6F4EF" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M274 196 C302 176 342 182 362 214 C382 246 388 300 380 342 C374 376 352 398 322 398 C298 398 280 380 274 356 Z"
+        fill="#F6F4EF" fill-opacity="0.07" stroke="#F6F4EF" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- arvore bronquica -->
+  <g fill="none" stroke="#F6F4EF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- traqueia -->
+    <path d="M256 92 L256 196" stroke-width="14"/>
+    <!-- bronquios principais -->
+    <path d="M256 196 C236 206 220 214 204 224" stroke-width="11"/>
+    <path d="M256 196 C276 206 292 214 308 224" stroke-width="11"/>
+
+    <!-- pulmao esquerdo (lado esquerdo da imagem) -->
+    <path d="M204 224 C190 234 180 244 174 256" stroke-width="7"/>
+    <path d="M174 256 C162 248 154 244 146 242" stroke-width="4.5"/>
+    <path d="M174 256 C166 266 160 278 158 292" stroke-width="4.5"/>
+    <path d="M204 224 C198 244 196 266 196 286" stroke-width="7"/>
+    <path d="M196 286 C182 306 174 322 170 338" stroke-width="4.5"/>
+    <path d="M196 286 C204 308 210 326 214 344" stroke-width="4.5"/>
+
+    <!-- pulmao direito (lado direito da imagem) -->
+    <path d="M308 224 C322 234 332 244 338 256" stroke-width="7"/>
+    <path d="M338 256 C350 248 358 244 366 242" stroke-width="4.5"/>
+    <path d="M338 256 C346 266 352 278 354 292" stroke-width="4.5"/>
+    <path d="M308 224 C314 244 316 266 316 286" stroke-width="7"/>
+    <path d="M316 286 C330 306 338 322 342 338" stroke-width="4.5"/>
+    <path d="M316 286 C308 308 302 326 298 344" stroke-width="4.5"/>
+  </g>
+
+  <!-- raio central -->
+  <path d="M282 96 L212 268 L252 268 L230 416 L310 226 L268 226 Z"
+        fill="#E8C46A"/>
+
+  <!-- onda respiratoria discreta -->
+  <path d="M150 458 Q190 438 230 458 T310 458 T390 458"
+        fill="none" stroke="#F6F4EF" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+</svg>
